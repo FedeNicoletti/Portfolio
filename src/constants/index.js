@@ -4,14 +4,8 @@ import {
   creator,
   web,
   css,
-  figma,
   git,
   html,
-  bootstrap,
-  postman,
-  jest,
-  sass,
-  materialui,
   mongodb,
   nextjs,
   express,
@@ -192,7 +186,7 @@ const projects = [
   {
     name: "GPT-3 Modern Landing",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Landing page that showcases the capabilities of GPT-3 and other modern web development tools. It has a modern and attractive design and offers an interactive demo of a chatbot powered by GPT-3. The page also includes user testimonials. Overall, the landing page demonstrates how GPT-3 and modern web development tools can be used to create interactive and efficient natural language processing applications and chatbots.",
     tags: [
       {
         name: "react",
@@ -211,7 +205,7 @@ const projects = [
   {
     name: "Modern Bank App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Landing page that showcases an online banking application. The page has a modern and attractive design, and provides an overview of the banking services offered, such as current, savings, and investment accounts. It also describes the benefits of using the banking app, such as the ability to make online transfers and manage finances from anywhere.",
     tags: [
       {
         name: "react",
@@ -230,7 +224,7 @@ const projects = [
   {
     name: "This Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The page is a modern and minimalist developer's portfolio that presents a brief description of the developer and their skills, a section of projects with screenshots and links to repositories, and a contact form.",
     tags: [
       {
         name: "react",
