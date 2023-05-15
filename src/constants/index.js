@@ -3,26 +3,31 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
   css,
+  figma,
+  git,
+  html,
+  bootstrap,
+  postman,
+  jest,
+  jquery,
+  sass,
+  vscode,
+  materialui,
+  markdown,
+  netlify,
+  mongodb,
+  nextjs,
+  express,
+  javascript,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  typescript,
   threejs,
+  henry,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +47,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FullStack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Resourceful Problem Solver",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cat Lover",
     icon: backend,
   },
   {
@@ -65,12 +70,52 @@ const technologies = [
     icon: html,
   },
   {
+    name: "MarkDown",
+    icon: markdown,
+  },
+  {
     name: "CSS 3",
     icon: css,
   },
   {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Sass",
+    icon: sass,
+  },
+  {
+    name: "MaterialUI",
+    icon: materialui,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Jest",
+    icon: jest,
+  },
+  {
+    name: "JQuery",
+    icon: jquery,
+  },
+  {
+    name: "PostMan",
+    icon: postman,
+  },
+  {
+    name: "VsCode",
+    icon: vscode,
+  },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "Netlify",
+    icon: netlify,
   },
   {
     name: "TypeScript",
@@ -83,6 +128,10 @@ const technologies = [
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "NextJS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
@@ -108,63 +157,49 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Fullstack Javascript Developer",
+    company_name: "Bootcamp Soy Henry",
+    icon: henry,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - July 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including instructors, teaching assistants, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Fullstack Javascript Developer",
+    company_name: "Freelancer",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams, clients, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Electrician",
+    company_name: "Techint",
+    icon: "https://www.liblogo.com/img-logo/te7978t06b-techint-logo-techint-grupo-doss-arq.png",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2018 - March 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Coordinating the implementation of a robotic arm and surveying and connecting PLCs.",
+      "Managing projects and ensuring their successful completion on time, within budget, and to the required specifications.",
+      "Collaborating with team members to identify and resolve problems during the implementation phase.",
+      "Assembling and connecting various projects related to PLCs and robotics for seamless pipes.",
+      "Monitoring and controlling processes to ensure efficient and effective project execution.",
+      "Developing plans to address potential issues and mitigate risks.",
+      "Experience in managing projects, collaborating effectively with team members, and controlling processes is highly relevant to a career as a FullStack developer, where these skills are critical for designing, building, and maintaining complex web applications.",
     ],
   },
 ];
@@ -172,33 +207,34 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I'm a random user generated by Federico, so you can really trust me when I say that Federico really cares about the final product version that will reach the customer.",
     name: "Sara Lee",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Cool Company",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I'm another random user, and I have to say that I've never met a web developer who cares as much about their users' success as Federico does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Amazing Company",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "No, I am not another random user. I am the boss here. My human feeds me, and that's all that matters. Although I can attest to the fact that they spend their time studying and practicing to create websites that delight users. Anyway, hire him so he can buy me food!",
+    name: "Vainilla",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "House of Federico",
+    image:
+      "https://media.istockphoto.com/id/1393862021/photo/tricolor-cat-with-green-eyes.jpg?s=612x612&w=0&k=20&c=aF-wxBDRwgfoIN383qh9okzqC_9zm85njzlUvEhtCJU=",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GPT-3 Modern Landing",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -206,20 +242,18 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:
+      "https://user-images.githubusercontent.com/63601533/238207413-cb45b8b5-21ac-4639-aae2-823d51b6b140.png",
+    source_code_link: "https://github.com/FedeNicoletti/gpt3",
   },
   {
-    name: "Job IT",
+    name: "Modern Bank App",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -227,38 +261,38 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
+
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image:
+      "https://user-images.githubusercontent.com/63601533/238207259-c6cbe422-719b-42ff-9115-a2c5848ce7aa.png",
+    source_code_link: "https://github.com/FedeNicoletti/bank_app",
   },
   {
-    name: "Trip Guide",
+    name: "This Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
+
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Three JS",
+        icon: threejs,
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:
+      "https://user-images.githubusercontent.com/63601533/238207763-d71b37ec-4dc1-40c4-9644-f8ec051daecc.png",
+    source_code_link: "https://github.com/FedeNicoletti/Portfolio",
   },
 ];
 
