@@ -10,12 +10,8 @@ import {
   bootstrap,
   postman,
   jest,
-  jquery,
   sass,
-  vscode,
   materialui,
-  markdown,
-  netlify,
   mongodb,
   nextjs,
   express,
@@ -70,52 +66,16 @@ const technologies = [
     icon: html,
   },
   {
-    name: "MarkDown",
-    icon: markdown,
-  },
-  {
     name: "CSS 3",
     icon: css,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
-  {
-    name: "Sass",
-    icon: sass,
-  },
-  {
-    name: "MaterialUI",
-    icon: materialui,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "Jest",
-    icon: jest,
-  },
-  {
-    name: "JQuery",
-    icon: jquery,
-  },
-  {
-    name: "PostMan",
-    icon: postman,
-  },
-  {
-    name: "VsCode",
-    icon: vscode,
-  },
-  {
     name: "Express",
     icon: express,
-  },
-  {
-    name: "Netlify",
-    icon: netlify,
   },
   {
     name: "TypeScript",
@@ -152,10 +112,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
 ];
 
