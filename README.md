@@ -13,4 +13,4 @@
 
 I'm excited to demonstrate my skills in 3D graphics, React development, and industry-standard best practices in my project. Thank you for taking the time to review my project and I look forward to discussing it further with you.
 
-Here is the ![demo](https://fdrnportfolio.netlify.app/)
+Here is the [demo](https://fdrnportfolio.netlify.app/)
