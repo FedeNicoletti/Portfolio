@@ -184,9 +184,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "GPT-3 Modern Landing",
+    name: "Crew Social Media",
     description:
-      "Landing page that showcases the capabilities of GPT-3 and other modern web development tools. It has a modern and attractive design and offers an interactive demo of a chatbot powered by GPT-3. The page also includes user testimonials. Overall, the landing page demonstrates how GPT-3 and modern web development tools can be used to create interactive and efficient natural language processing applications and chatbots.",
+      "'Crew Social Media' is a Full Stack MERN (MongoDB, Express.js, React.js, and Node.js) Application that serves as a simple social media platform. The application enables users to share and post interesting events or memories from their lives. By using the combination of React, Node.js, Express, and MongoDB, you have created a powerful and efficient solution. Users can like posts, add and remove friends, view profiles, register, login, and logout. Additionally, I pay special attention to security, where authentication is implemented to ensure secure access to the application's features. Technologies like JSON Web Tokens (JWT) can be utilized for authentication and authorization purposes.",
     tags: [
       {
         name: "react",
@@ -194,13 +194,26 @@ const projects = [
       },
 
       {
-        name: "tailwind",
+        name: "mongodb",
         color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
       },
     ],
     image:
-      "https://user-images.githubusercontent.com/63601533/238207413-cb45b8b5-21ac-4639-aae2-823d51b6b140.png",
-    source_code_link: "https://github.com/FedeNicoletti/gpt3",
+      "https://github.com/FedeNicoletti/socialmedia/assets/63601533/518abf7e-ad29-4111-87e6-f8de4ce29a1c",
+    source_code_link: "https://github.com/FedeNicoletti/socialmedia",
   },
   {
     name: "Modern Bank App",
