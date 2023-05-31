@@ -216,9 +216,9 @@ const projects = [
     source_code_link: "https://github.com/FedeNicoletti/socialmedia",
   },
   {
-    name: "Modern Bank App",
+    name: "Movix App",
     description:
-      "Landing page that showcases an online banking application. The page has a modern and attractive design, and provides an overview of the banking services offered, such as current, savings, and investment accounts. It also describes the benefits of using the banking app, such as the ability to make online transfers and manage finances from anywhere.",
+      "The project is a React-based movie website built with React 18, hooks, Redux Toolkit, Axios, and React Router DOM version 6. It offers users a seamless and interactive experience to watch movies online. The codebase follows a well-structured folder organization for maintainability and scalability. Global state management is implemented using Redux Toolkit, enabling easy data sharing across components. Data is fetched from a REST API using Axios, allowing integration with external movie databases. Custom hooks are created for reusable logic and improved code modularity. The website features a carousel/slider for intuitive movie browsing and infinite scrolling for effortless navigation. React Router DOM version 6 ensures efficient routing within the application. A loading skeleton provides visual feedback during data loading, and robust error handling informs users of any issues encountered, such as 404 pages. The responsive layout, powered by strategic media queries, ensures optimal viewing on desktops, tablets, and mobile phones.",
     tags: [
       {
         name: "react",
@@ -229,10 +229,14 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
     ],
     image:
-      "https://user-images.githubusercontent.com/63601533/238207259-c6cbe422-719b-42ff-9115-a2c5848ce7aa.png",
-    source_code_link: "https://github.com/FedeNicoletti/bank_app",
+      "https://github.com/FedeNicoletti/movix/assets/63601533/33d93b12-1260-4a91-960e-65480699f200",
+    source_code_link: "https://github.com/FedeNicoletti/movix",
   },
   {
     name: "This Portfolio",
