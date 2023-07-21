@@ -34,7 +34,7 @@ import threejs from "./tech/threejs.png";
 
 import henry from "./company/henry.png";
 
-import santiago from "santiago.jpeg";
+import santiago from "./santiago.jpeg";
 
 export {
   logo,
