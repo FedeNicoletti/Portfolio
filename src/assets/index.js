@@ -34,6 +34,8 @@ import threejs from "./tech/threejs.png";
 
 import henry from "./company/henry.png";
 
+import santiago from "santiago.jpeg";
+
 export {
   logo,
   backend,
@@ -67,4 +69,5 @@ export {
   typescript,
   threejs,
   henry,
+  santiago,
 };
